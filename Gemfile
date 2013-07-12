@@ -36,5 +36,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+gem 'will_paginate', '~>3.0'
 
 gem 'jquery-ui-rails'
