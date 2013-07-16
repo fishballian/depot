@@ -57708,3 +57708,100 @@ Processing by StoreController#index as HTML
   Rendered collection (0.0ms)
   Rendered carts/_cart.html.erb (0.0ms)
 Completed 200 OK in 78ms (Views: 62.5ms | ActiveRecord: 15.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 14:02:02 +0800
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (15.6ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 59]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (31.2ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Tue, 16 Jul 2013 06:02:02 UTC +00:00], ["updated_at", Tue, 16 Jul 2013 06:02:02 UTC +00:00]]
+  [1m[35m (156.2ms)[0m  commit transaction
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (328.1ms)
+Compiled jquery.ui.core.js  (0ms)  (pid 4876)
+Compiled jquery.ui.widget.js  (0ms)  (pid 4876)
+Compiled jquery.ui.accordion.js  (515ms)  (pid 4876)
+Compiled jquery.ui.position.js  (0ms)  (pid 4876)
+Compiled jquery.ui.menu.js  (265ms)  (pid 4876)
+Compiled jquery.ui.autocomplete.js  (546ms)  (pid 4876)
+Compiled jquery.ui.button.js  (0ms)  (pid 4876)
+Compiled jquery.ui.datepicker.js  (0ms)  (pid 4876)
+Compiled jquery.ui.mouse.js  (0ms)  (pid 4876)
+Compiled jquery.ui.draggable.js  (312ms)  (pid 4876)
+Compiled jquery.ui.resizable.js  (15ms)  (pid 4876)
+Compiled jquery.ui.dialog.js  (718ms)  (pid 4876)
+Compiled jquery.ui.droppable.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-blind.js  (312ms)  (pid 4876)
+Compiled jquery.ui.effect-bounce.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-clip.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-drop.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-explode.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-fade.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-fold.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-highlight.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-pulsate.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-scale.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-shake.js  (15ms)  (pid 4876)
+Compiled jquery.ui.effect-slide.js  (0ms)  (pid 4876)
+Compiled jquery.ui.effect-transfer.js  (15ms)  (pid 4876)
+Compiled jquery.ui.progressbar.js  (0ms)  (pid 4876)
+Compiled jquery.ui.selectable.js  (0ms)  (pid 4876)
+Compiled jquery.ui.slider.js  (0ms)  (pid 4876)
+Compiled jquery.ui.sortable.js  (0ms)  (pid 4876)
+Compiled jquery.ui.spinner.js  (15ms)  (pid 4876)
+Compiled jquery.ui.tabs.js  (15ms)  (pid 4876)
+Compiled jquery.ui.tooltip.js  (0ms)  (pid 4876)
+Compiled jquery.ui.all.js  (7203ms)  (pid 4876)
+Compiled application.js  (7906ms)  (pid 4876)
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 56
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (0.0ms)
+Completed 200 OK in 9953ms (Views: 9656.2ms | ActiveRecord: 234.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 14:02:12 +0800
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started POST "/en" for 127.0.0.1 at 2013-07-16 14:02:24 +0800
+Processing by StoreController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyzX/mvsW3xHTe5oKqxfJ5nV2zIGjamHvs2IxMuc6aU=", "set_locale"=>"es", "locale"=>"en"}
+Redirected to http://172.18.181.104/es
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-07-16 14:02:24 +0800
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 56]]
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (0.0ms)
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 56[0m
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (0.0ms)
+Completed 200 OK in 125ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-07-16 14:02:24 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (31.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (46.9ms)[0m  [1mCREATE TABLE "carts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (46.9ms)[0m  CREATE TABLE "line_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "cart_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "quantity" integer DEFAULT 1, "order_id" integer) 
+  [1m[36m (109.4ms)[0m  [1mCREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "address" text, "email" varchar(255), "pay_type" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (78.1ms)[0m  CREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (62.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "password_digest" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (78.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (375.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.0ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (187.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130715011825')[0m
+  [1m[35m (171.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130702035043')
+  [1m[36m (234.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130703004742')[0m
+  [1m[35m (187.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130703005711')
+  [1m[36m (171.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130708065051')[0m
+  [1m[35m (140.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130708081532')
+  [1m[36m (109.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130710064653')[0m
+  [1m[35m (125.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130711063942')
