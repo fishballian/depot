@@ -1,1 +1,246 @@
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Started GET "/es" for 127.0.0.1 at 2013-07-16 14:45:59 +0800
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  Rendered store/index.html.erb within layouts/application (78.1ms)
+Completed 500 Internal Server Error in 438ms
+
+ActionView::Template::Error (ruby.jpg isn't precompiled):
+    8:  
+    9: <% @products.each do |product| %>
+    10:   <div class="entry">
+    11:     <%= image_tag(product.image_url) %>
+    12:     <h3><%= product.title %></h3>
+    13:     <p><%= sanitize(product.description) %></p>
+    14:     <div class="price_line">
+  app/views/store/index.html.erb:11:in `block in _app_views_store_index_html_erb___725155973_22985568'
+  app/views/store/index.html.erb:9:in `_app_views_store_index_html_erb___725155973_22985568'
+
+
+Started GET "/es" for 127.0.0.1 at 2013-07-16 14:46:02 +0800
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  Rendered store/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 141ms
+
+ActionView::Template::Error (ruby.jpg isn't precompiled):
+    8:  
+    9: <% @products.each do |product| %>
+    10:   <div class="entry">
+    11:     <%= image_tag(product.image_url) %>
+    12:     <h3><%= product.title %></h3>
+    13:     <p><%= sanitize(product.description) %></p>
+    14:     <div class="price_line">
+  app/views/store/index.html.erb:11:in `block in _app_views_store_index_html_erb___725155973_22985568'
+  app/views/store/index.html.erb:9:in `_app_views_store_index_html_erb___725155973_22985568'
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 14:46:08 +0800
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (ruby.jpg isn't precompiled):
+    8:  
+    9: <% @products.each do |product| %>
+    10:   <div class="entry">
+    11:     <%= image_tag(product.image_url) %>
+    12:     <h3><%= product.title %></h3>
+    13:     <p><%= sanitize(product.description) %></p>
+    14:     <div class="price_line">
+  app/views/store/index.html.erb:11:in `block in _app_views_store_index_html_erb___725155973_22985568'
+  app/views/store/index.html.erb:9:in `_app_views_store_index_html_erb___725155973_22985568'
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 14:46:10 +0800
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (ruby.jpg isn't precompiled):
+    8:  
+    9: <% @products.each do |product| %>
+    10:   <div class="entry">
+    11:     <%= image_tag(product.image_url) %>
+    12:     <h3><%= product.title %></h3>
+    13:     <p><%= sanitize(product.description) %></p>
+    14:     <div class="price_line">
+  app/views/store/index.html.erb:11:in `block in _app_views_store_index_html_erb___725155973_22985568'
+  app/views/store/index.html.erb:9:in `_app_views_store_index_html_erb___725155973_22985568'
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 14:46:11 +0800
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (ruby.jpg isn't precompiled):
+    8:  
+    9: <% @products.each do |product| %>
+    10:   <div class="entry">
+    11:     <%= image_tag(product.image_url) %>
+    12:     <h3><%= product.title %></h3>
+    13:     <p><%= sanitize(product.description) %></p>
+    14:     <div class="price_line">
+  app/views/store/index.html.erb:11:in `block in _app_views_store_index_html_erb___725155973_22985568'
+  app/views/store/index.html.erb:9:in `_app_views_store_index_html_erb___725155973_22985568'
+
+
+Compiled jquery.js  (0ms)  (pid 5688)
+Compiled jquery.ui.core.js  (0ms)  (pid 5688)
+Compiled jquery.ui.widget.js  (0ms)  (pid 5688)
+Compiled jquery.ui.accordion.js  (265ms)  (pid 5688)
+Compiled jquery.ui.position.js  (0ms)  (pid 5688)
+Compiled jquery.ui.menu.js  (93ms)  (pid 5688)
+Compiled jquery.ui.autocomplete.js  (187ms)  (pid 5688)
+Compiled jquery.ui.button.js  (0ms)  (pid 5688)
+Compiled jquery.ui.datepicker.js  (0ms)  (pid 5688)
+Compiled jquery.ui.mouse.js  (0ms)  (pid 5688)
+Compiled jquery.ui.draggable.js  (171ms)  (pid 5688)
+Compiled jquery.ui.resizable.js  (0ms)  (pid 5688)
+Compiled jquery.ui.dialog.js  (359ms)  (pid 5688)
+Compiled jquery.ui.droppable.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-blind.js  (437ms)  (pid 5688)
+Compiled jquery.ui.effect-bounce.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-clip.js  (15ms)  (pid 5688)
+Compiled jquery.ui.effect-drop.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-explode.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-fade.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-fold.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-highlight.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-pulsate.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-scale.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-shake.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-slide.js  (0ms)  (pid 5688)
+Compiled jquery.ui.effect-transfer.js  (0ms)  (pid 5688)
+Compiled jquery.ui.progressbar.js  (0ms)  (pid 5688)
+Compiled jquery.ui.selectable.js  (0ms)  (pid 5688)
+Compiled jquery.ui.slider.js  (0ms)  (pid 5688)
+Compiled jquery.ui.sortable.js  (0ms)  (pid 5688)
+Compiled jquery.ui.spinner.js  (0ms)  (pid 5688)
+Compiled jquery.ui.tabs.js  (0ms)  (pid 5688)
+Compiled jquery.ui.tooltip.js  (15ms)  (pid 5688)
+Compiled jquery.ui.all.js  (6796ms)  (pid 5688)
+Compiled jquery_ujs.js  (0ms)  (pid 5688)
+Compiled admin.js  (4953ms)  (pid 5688)
+Compiled carts.js  (234ms)  (pid 5688)
+Compiled line_items.js  (234ms)  (pid 5688)
+Compiled orders.js  (468ms)  (pid 5688)
+Compiled products.js  (421ms)  (pid 5688)
+Compiled sessions.js  (281ms)  (pid 5688)
+Compiled store.js  (500ms)  (pid 5688)
+Compiled users.js  (375ms)  (pid 5688)
+Compiled application.js  (15578ms)  (pid 5688)
+Compiled admin.css  (62ms)  (pid 5688)
+Compiled carts.css  (156ms)  (pid 5688)
+Compiled line_items.css  (46ms)  (pid 5688)
+Compiled orders.css  (31ms)  (pid 5688)
+Compiled products.css  (46ms)  (pid 5688)
+Compiled scaffolds.css  (62ms)  (pid 5688)
+Compiled sessions.css  (31ms)  (pid 5688)
+Compiled store.css  (31ms)  (pid 5688)
+Compiled users.css  (15ms)  (pid 5688)
+Compiled application.css  (8375ms)  (pid 5688)
+Compiled jquery.js  (0ms)  (pid 4204)
+Compiled jquery.ui.core.js  (0ms)  (pid 4204)
+Compiled jquery.ui.widget.js  (0ms)  (pid 4204)
+Compiled jquery.ui.accordion.js  (265ms)  (pid 4204)
+Compiled jquery.ui.position.js  (0ms)  (pid 4204)
+Compiled jquery.ui.menu.js  (125ms)  (pid 4204)
+Compiled jquery.ui.autocomplete.js  (281ms)  (pid 4204)
+Compiled jquery.ui.button.js  (0ms)  (pid 4204)
+Compiled jquery.ui.datepicker.js  (0ms)  (pid 4204)
+Compiled jquery.ui.mouse.js  (0ms)  (pid 4204)
+Compiled jquery.ui.draggable.js  (109ms)  (pid 4204)
+Compiled jquery.ui.resizable.js  (0ms)  (pid 4204)
+Compiled jquery.ui.dialog.js  (312ms)  (pid 4204)
+Compiled jquery.ui.droppable.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-blind.js  (140ms)  (pid 4204)
+Compiled jquery.ui.effect-bounce.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-clip.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-drop.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-explode.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-fade.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-fold.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-highlight.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-pulsate.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-scale.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-shake.js  (0ms)  (pid 4204)
+Compiled jquery.ui.effect-slide.js  (15ms)  (pid 4204)
+Compiled jquery.ui.effect-transfer.js  (0ms)  (pid 4204)
+Compiled jquery.ui.progressbar.js  (0ms)  (pid 4204)
+Compiled jquery.ui.selectable.js  (0ms)  (pid 4204)
+Compiled jquery.ui.slider.js  (0ms)  (pid 4204)
+Compiled jquery.ui.sortable.js  (0ms)  (pid 4204)
+Compiled jquery.ui.spinner.js  (0ms)  (pid 4204)
+Compiled jquery.ui.tabs.js  (15ms)  (pid 4204)
+Compiled jquery.ui.tooltip.js  (0ms)  (pid 4204)
+Compiled jquery.ui.all.js  (4906ms)  (pid 4204)
+Compiled jquery_ujs.js  (0ms)  (pid 4204)
+Compiled admin.js  (5750ms)  (pid 4204)
+Compiled carts.js  (359ms)  (pid 4204)
+Compiled line_items.js  (625ms)  (pid 4204)
+Compiled orders.js  (421ms)  (pid 4204)
+Compiled products.js  (437ms)  (pid 4204)
+Compiled sessions.js  (625ms)  (pid 4204)
+Compiled store.js  (437ms)  (pid 4204)
+Compiled users.js  (359ms)  (pid 4204)
+Compiled application.js  (15859ms)  (pid 4204)
+Compiled jquery.js  (0ms)  (pid 4672)
+Compiled jquery.ui.core.js  (0ms)  (pid 4672)
+Compiled jquery.ui.widget.js  (0ms)  (pid 4672)
+Compiled jquery.ui.accordion.js  (218ms)  (pid 4672)
+Compiled jquery.ui.position.js  (0ms)  (pid 4672)
+Compiled jquery.ui.menu.js  (250ms)  (pid 4672)
+Compiled jquery.ui.autocomplete.js  (406ms)  (pid 4672)
+Compiled jquery.ui.button.js  (0ms)  (pid 4672)
+Compiled jquery.ui.datepicker.js  (0ms)  (pid 4672)
+Compiled jquery.js  (15ms)  (pid 3340)
+Compiled jquery.ui.core.js  (0ms)  (pid 3340)
+Compiled jquery.ui.widget.js  (15ms)  (pid 3340)
+Compiled jquery.ui.accordion.js  (109ms)  (pid 3340)
+Compiled jquery.ui.position.js  (0ms)  (pid 3340)
+Compiled jquery.ui.menu.js  (46ms)  (pid 3340)
+Compiled jquery.ui.autocomplete.js  (125ms)  (pid 3340)
+Compiled jquery.ui.button.js  (31ms)  (pid 3340)
+Compiled jquery.ui.datepicker.js  (0ms)  (pid 3340)
+Compiled jquery.ui.mouse.js  (0ms)  (pid 3340)
+Compiled jquery.ui.draggable.js  (140ms)  (pid 3340)
+Compiled jquery.ui.resizable.js  (0ms)  (pid 3340)
+Compiled jquery.ui.dialog.js  (296ms)  (pid 3340)
+Compiled jquery.ui.droppable.js  (0ms)  (pid 3340)
+Compiled jquery.ui.effect.js  (15ms)  (pid 3340)
+Compiled jquery.ui.effect-blind.js  (93ms)  (pid 3340)
+Compiled jquery.ui.effect-bounce.js  (0ms)  (pid 3340)
+Compiled jquery.ui.effect-clip.js  (0ms)  (pid 3340)
+Compiled jquery.ui.effect-drop.js  (15ms)  (pid 3340)
+Compiled jquery.ui.effect-explode.js  (0ms)  (pid 3340)
+Compiled jquery.ui.effect-fade.js  (0ms)  (pid 3340)
+Compiled jquery.ui.effect-fold.js  (0ms)  (pid 3340)
+Compiled jquery.ui.effect-highlight.js  (0ms)  (pid 3340)
+Compiled jquery.ui.effect-pulsate.js  (0ms)  (pid 3340)
+Compiled jquery.ui.effect-scale.js  (15ms)  (pid 3340)
+Compiled jquery.ui.effect-shake.js  (15ms)  (pid 3340)
+Compiled jquery.ui.effect-slide.js  (0ms)  (pid 3340)
+Compiled jquery.ui.effect-transfer.js  (0ms)  (pid 3340)
+Compiled jquery.ui.progressbar.js  (15ms)  (pid 3340)
+Compiled jquery.ui.selectable.js  (0ms)  (pid 3340)
+Compiled jquery.ui.slider.js  (0ms)  (pid 3340)
+Compiled jquery.ui.sortable.js  (0ms)  (pid 3340)
+Compiled jquery.ui.spinner.js  (0ms)  (pid 3340)
+Compiled jquery.ui.tabs.js  (15ms)  (pid 3340)
+Compiled jquery.ui.tooltip.js  (0ms)  (pid 3340)
+Compiled jquery.ui.all.js  (3000ms)  (pid 3340)
+Compiled jquery_ujs.js  (0ms)  (pid 3340)
+Compiled admin.js  (2234ms)  (pid 3340)
+Compiled carts.js  (281ms)  (pid 3340)
+Compiled line_items.js  (218ms)  (pid 3340)
+Compiled orders.js  (234ms)  (pid 3340)
+Compiled products.js  (218ms)  (pid 3340)
+Compiled sessions.js  (234ms)  (pid 3340)
+Compiled store.js  (265ms)  (pid 3340)
+Compiled users.js  (234ms)  (pid 3340)
+Compiled application.js  (7781ms)  (pid 3340)
