@@ -244,3 +244,1026 @@ Compiled sessions.js  (234ms)  (pid 3340)
 Compiled store.js  (265ms)  (pid 3340)
 Compiled users.js  (234ms)  (pid 3340)
 Compiled application.js  (7781ms)  (pid 3340)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-07-16 15:37:46 +0800
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (171.9ms)
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (0.0ms)
+Completed 200 OK in 891ms (Views: 500.0ms | ActiveRecord: 390.6ms)
+Started GET "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css" for 127.0.0.1 at 2013-07-16 15:37:47 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js" for 127.0.0.1 at 2013-07-16 15:37:47 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/logo-294265e1e16bb5a9a92e17713699818d.png" for 127.0.0.1 at 2013-07-16 15:37:47 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo-294265e1e16bb5a9a92e17713699818d.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg" for 127.0.0.1 at 2013-07-16 15:37:47 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-16 15:37:50 +0800
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (0.0ms)
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js" for 127.0.0.1 at 2013-07-16 15:37:50 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css" for 127.0.0.1 at 2013-07-16 15:37:50 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/logo-294265e1e16bb5a9a92e17713699818d.png" for 127.0.0.1 at 2013-07-16 15:37:50 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo-294265e1e16bb5a9a92e17713699818d.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg" for 127.0.0.1 at 2013-07-16 15:37:50 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started POST "/en" for 127.0.0.1 at 2013-07-16 15:38:09 +0800
+Processing by StoreController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NyzX/mvsW3xHTe5oKqxfJ5nV2zIGjamHvs2IxMuc6aU=", "set_locale"=>"es", "locale"=>"en"}
+Redirected to http://172.18.181.104/es
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/es" for 127.0.0.1 at 2013-07-16 15:38:09 +0800
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  Rendered store/index.html.erb within layouts/application (0.0ms)
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css" for 127.0.0.1 at 2013-07-16 15:38:09 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js" for 127.0.0.1 at 2013-07-16 15:38:09 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/logo-294265e1e16bb5a9a92e17713699818d.png" for 127.0.0.1 at 2013-07-16 15:38:09 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo-294265e1e16bb5a9a92e17713699818d.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg" for 127.0.0.1 at 2013-07-16 15:38:09 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/es" for 127.0.0.1 at 2013-07-16 15:38:11 +0800
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  Rendered store/index.html.erb within layouts/application (15.6ms)
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js" for 127.0.0.1 at 2013-07-16 15:38:11 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css" for 127.0.0.1 at 2013-07-16 15:38:11 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg" for 127.0.0.1 at 2013-07-16 15:38:11 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/logo-294265e1e16bb5a9a92e17713699818d.png" for 127.0.0.1 at 2013-07-16 15:38:11 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo-294265e1e16bb5a9a92e17713699818d.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/es" for 127.0.0.1 at 2013-07-16 15:38:11 +0800
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  Rendered store/index.html.erb within layouts/application (0.0ms)
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js" for 127.0.0.1 at 2013-07-16 15:38:11 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css" for 127.0.0.1 at 2013-07-16 15:38:11 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/logo-294265e1e16bb5a9a92e17713699818d.png" for 127.0.0.1 at 2013-07-16 15:38:11 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo-294265e1e16bb5a9a92e17713699818d.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg" for 127.0.0.1 at 2013-07-16 15:38:11 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/es" for 127.0.0.1 at 2013-07-16 15:38:12 +0800
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  Rendered store/index.html.erb within layouts/application (0.0ms)
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js" for 127.0.0.1 at 2013-07-16 15:38:12 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css" for 127.0.0.1 at 2013-07-16 15:38:12 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg" for 127.0.0.1 at 2013-07-16 15:38:12 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/logo-294265e1e16bb5a9a92e17713699818d.png" for 127.0.0.1 at 2013-07-16 15:38:12 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo-294265e1e16bb5a9a92e17713699818d.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Compiled jquery.js  (0ms)  (pid 3820)
+Compiled jquery.ui.core.js  (0ms)  (pid 3820)
+Compiled jquery.ui.widget.js  (0ms)  (pid 3820)
+Compiled jquery.ui.accordion.js  (125ms)  (pid 3820)
+Compiled jquery.ui.position.js  (0ms)  (pid 3820)
+Compiled jquery.ui.menu.js  (156ms)  (pid 3820)
+Compiled jquery.ui.autocomplete.js  (203ms)  (pid 3820)
+Compiled jquery.ui.button.js  (0ms)  (pid 3820)
+Compiled jquery.ui.datepicker.js  (0ms)  (pid 3820)
+Compiled jquery.ui.mouse.js  (15ms)  (pid 3820)
+Compiled jquery.ui.draggable.js  (62ms)  (pid 3820)
+Compiled jquery.ui.resizable.js  (15ms)  (pid 3820)
+Compiled jquery.ui.dialog.js  (203ms)  (pid 3820)
+Compiled jquery.ui.droppable.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-blind.js  (46ms)  (pid 3820)
+Compiled jquery.ui.effect-bounce.js  (15ms)  (pid 3820)
+Compiled jquery.ui.effect-clip.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-drop.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-explode.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-fade.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-fold.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-highlight.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-pulsate.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-scale.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-shake.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-slide.js  (0ms)  (pid 3820)
+Compiled jquery.ui.effect-transfer.js  (0ms)  (pid 3820)
+Compiled jquery.ui.progressbar.js  (0ms)  (pid 3820)
+Compiled jquery.ui.selectable.js  (0ms)  (pid 3820)
+Compiled jquery.ui.slider.js  (0ms)  (pid 3820)
+Compiled jquery.ui.sortable.js  (0ms)  (pid 3820)
+Compiled jquery.ui.spinner.js  (15ms)  (pid 3820)
+Compiled jquery.ui.tabs.js  (15ms)  (pid 3820)
+Compiled jquery.ui.tooltip.js  (0ms)  (pid 3820)
+Compiled jquery.ui.all.js  (2421ms)  (pid 3820)
+Compiled jquery_ujs.js  (0ms)  (pid 3820)
+Compiled admin.js  (500ms)  (pid 3820)
+Compiled carts.js  (203ms)  (pid 3820)
+Compiled line_items.js  (218ms)  (pid 3820)
+Compiled orders.js  (203ms)  (pid 3820)
+Compiled products.js  (234ms)  (pid 3820)
+Compiled sessions.js  (250ms)  (pid 3820)
+Compiled store.js  (250ms)  (pid 3820)
+Compiled users.js  (234ms)  (pid 3820)
+Compiled application.js  (5328ms)  (pid 3820)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-07-16 15:39:58 +0800
+Processing by StoreController#index as HTML
+  Rendered store/index.html.erb within layouts/application (765.6ms)
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (15.6ms)
+Completed 200 OK in 2141ms (Views: 1390.6ms | ActiveRecord: 718.8ms)
+Started GET "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css" for 127.0.0.1 at 2013-07-16 15:40:01 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-95342ff6f8df7e2d4ca06fee7d0026af.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js" for 127.0.0.1 at 2013-07-16 15:40:02 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-bb2a97a0ed38e9fa3aeb88fc6d9a4529.js"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/logo-294265e1e16bb5a9a92e17713699818d.png" for 127.0.0.1 at 2013-07-16 15:40:02 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/logo-294265e1e16bb5a9a92e17713699818d.png"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg" for 127.0.0.1 at 2013-07-16 15:40:02 +0800
+
+ActionController::RoutingError (No route matches [GET] "/assets/ruby-c85e9b2c1d14f0b98a336dd900ebaf81.jpg"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Compiled admin.css  (0ms)  (pid 3820)
+Compiled carts.css  (31ms)  (pid 3820)
+Compiled line_items.css  (15ms)  (pid 3820)
+Compiled orders.css  (15ms)  (pid 3820)
+Compiled products.css  (31ms)  (pid 3820)
+Compiled scaffolds.css  (15ms)  (pid 3820)
+Compiled sessions.css  (0ms)  (pid 3820)
+Compiled store.css  (15ms)  (pid 3820)
+Compiled users.css  (0ms)  (pid 3820)
+Compiled application.css  (21265ms)  (pid 3820)
+Compiled jquery.js  (0ms)  (pid 4452)
+Compiled jquery.ui.core.js  (0ms)  (pid 4452)
+Compiled jquery.ui.widget.js  (0ms)  (pid 4452)
+Compiled jquery.ui.accordion.js  (125ms)  (pid 4452)
+Compiled jquery.ui.position.js  (0ms)  (pid 4452)
+Compiled jquery.ui.menu.js  (46ms)  (pid 4452)
+Compiled jquery.ui.autocomplete.js  (125ms)  (pid 4452)
+Compiled jquery.ui.button.js  (0ms)  (pid 4452)
+Compiled jquery.ui.datepicker.js  (0ms)  (pid 4452)
+Compiled jquery.ui.mouse.js  (15ms)  (pid 4452)
+Compiled jquery.ui.draggable.js  (93ms)  (pid 4452)
+Compiled jquery.ui.resizable.js  (0ms)  (pid 4452)
+Compiled jquery.ui.dialog.js  (250ms)  (pid 4452)
+Compiled jquery.ui.droppable.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-blind.js  (125ms)  (pid 4452)
+Compiled jquery.ui.effect-bounce.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-clip.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-drop.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-explode.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-fade.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-fold.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-highlight.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-pulsate.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-scale.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-shake.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-slide.js  (0ms)  (pid 4452)
+Compiled jquery.ui.effect-transfer.js  (0ms)  (pid 4452)
+Compiled jquery.ui.progressbar.js  (0ms)  (pid 4452)
+Compiled jquery.ui.selectable.js  (0ms)  (pid 4452)
+Compiled jquery.ui.slider.js  (0ms)  (pid 4452)
+Compiled jquery.ui.sortable.js  (0ms)  (pid 4452)
+Compiled jquery.ui.spinner.js  (0ms)  (pid 4452)
+Compiled jquery.ui.tabs.js  (0ms)  (pid 4452)
+Compiled jquery.ui.tooltip.js  (15ms)  (pid 4452)
+Compiled jquery.ui.all.js  (2828ms)  (pid 4452)
+Compiled jquery_ujs.js  (0ms)  (pid 4452)
+Compiled admin.js  (1812ms)  (pid 4452)
+Compiled carts.js  (250ms)  (pid 4452)
+Compiled line_items.js  (250ms)  (pid 4452)
+Compiled orders.js  (328ms)  (pid 4452)
+Compiled products.js  (218ms)  (pid 4452)
+Compiled sessions.js  (218ms)  (pid 4452)
+Compiled store.js  (250ms)  (pid 4452)
+Compiled users.js  (296ms)  (pid 4452)
+Compiled application.js  (7468ms)  (pid 4452)
+Compiled admin.css  (0ms)  (pid 4452)
+Compiled carts.css  (0ms)  (pid 4452)
+Compiled line_items.css  (15ms)  (pid 4452)
+Compiled orders.css  (0ms)  (pid 4452)
+Compiled products.css  (15ms)  (pid 4452)
+Compiled scaffolds.css  (0ms)  (pid 4452)
+Compiled sessions.css  (0ms)  (pid 4452)
+Compiled store.css  (15ms)  (pid 4452)
+Compiled users.css  (0ms)  (pid 4452)
+Compiled application.css  (718ms)  (pid 4452)
+Compiled jquery.js  (0ms)  (pid 5560)
+Compiled jquery.ui.core.js  (0ms)  (pid 5560)
+Compiled jquery.ui.widget.js  (0ms)  (pid 5560)
+Compiled jquery.ui.accordion.js  (140ms)  (pid 5560)
+Compiled jquery.ui.position.js  (0ms)  (pid 5560)
+Compiled jquery.ui.menu.js  (78ms)  (pid 5560)
+Compiled jquery.ui.autocomplete.js  (171ms)  (pid 5560)
+Compiled jquery.ui.button.js  (0ms)  (pid 5560)
+Compiled jquery.ui.datepicker.js  (0ms)  (pid 5560)
+Compiled jquery.ui.mouse.js  (0ms)  (pid 5560)
+Compiled jquery.ui.draggable.js  (62ms)  (pid 5560)
+Compiled jquery.ui.resizable.js  (15ms)  (pid 5560)
+Compiled jquery.ui.dialog.js  (250ms)  (pid 5560)
+Compiled jquery.ui.droppable.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect-blind.js  (62ms)  (pid 5560)
+Compiled jquery.ui.effect-bounce.js  (15ms)  (pid 5560)
+Compiled jquery.ui.effect-clip.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect-drop.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect-explode.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect-fade.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect-fold.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect-highlight.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect-pulsate.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect-scale.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect-shake.js  (0ms)  (pid 5560)
+Compiled jquery.ui.effect-slide.js  (15ms)  (pid 5560)
+Compiled jquery.ui.effect-transfer.js  (0ms)  (pid 5560)
+Compiled jquery.ui.progressbar.js  (0ms)  (pid 5560)
+Compiled jquery.ui.selectable.js  (0ms)  (pid 5560)
+Compiled jquery.ui.slider.js  (0ms)  (pid 5560)
+Compiled jquery.ui.sortable.js  (0ms)  (pid 5560)
+Compiled jquery.ui.spinner.js  (15ms)  (pid 5560)
+Compiled jquery.ui.tabs.js  (0ms)  (pid 5560)
+Compiled jquery.ui.tooltip.js  (0ms)  (pid 5560)
+Compiled jquery.ui.all.js  (3015ms)  (pid 5560)
+Compiled jquery_ujs.js  (0ms)  (pid 5560)
+Compiled admin.js  (1734ms)  (pid 5560)
+Compiled carts.js  (250ms)  (pid 5560)
+Compiled line_items.js  (218ms)  (pid 5560)
+Compiled orders.js  (250ms)  (pid 5560)
+Compiled products.js  (218ms)  (pid 5560)
+Compiled sessions.js  (234ms)  (pid 5560)
+Compiled store.js  (265ms)  (pid 5560)
+Compiled users.js  (234ms)  (pid 5560)
+Compiled application.js  (7421ms)  (pid 5560)
